@@ -1,0 +1,40 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Sedan SC", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+.content{
+    background-image: url("https://riselocal.com.au/wp-content/uploads/2021/06/bodyguard-1.jpeg");
+    background-size: cover;
+    height: 650px;
+    width: 100%;
+}
+.bodyContent{
+    margin-top: 200px;
+}
+.cardGroup,.ImgGroup{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+
+}
+.cards{
+    align-items: center;
+    border: 1px solid;
+    margin:30px;
+    padding: 10px;
+    background-color:white;
+    color:  rgb(13, 1, 1);
+
+}
+.links{
+    text-decoration: none;
+    color: white;
+}
+.link{
+    color: black;
+    text-decoration: none;
+}
